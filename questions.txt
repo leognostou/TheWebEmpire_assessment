@@ -1,0 +1,80 @@
+/*
+	The Web Empire
+	Assessment
+	Leonidas Anagnostou
+*/
+
+1. Websites that I like:
+
+	a. https://www.spacex.com/
+
+		a really nice website, with a dark theme, that contains many pages.
+		All of them are very informative yet spartanic. So the visitor is
+		given information in the form of bullet lists or small paragraphs. 
+		The video contains many links to videos, which is the way to go if 
+		you target a young audience. You can go through the whole website 
+		and not be tired at all.
+		Informative, simplistic, new-age
+
+
+	b. https://www.spyrospanopoulos.com/
+
+		is a simple, single page website. Has a minimalistic design, with 
+		the navbar as its main feature. Once you select one of the menu 
+		items, the screen splits in two and the content appears in the 
+		middle. The Background switches between images that have a black 
+		transparent overlay in front of them. That effect make the site easy 
+		to the eye. (it is as if you are looking at a plain black 
+		background)  
+		Simple, clean, stylish. 
+
+
+	c. https://www.mvmt.com/
+
+		movement is a brand that sells womens and mens accessories like 
+		sunglasses, watches etc. So basically the site is a shop. It is 
+		nicely organized, really easy for the visitor to use and guides the 
+		potentional buyer to the items, instead of throwing the visitor all 
+		the categories and all different merchandise together, which may 
+		lead potential buyers away. All items have good and many pictures.
+		Simple design, bright white with black buttons for contrast. You can 
+		not go wrong with that.
+
+
+2. Websites that I do NOT like:
+
+	a. https://www.jobeat.gr/
+
+		through it you can find job openings in the food-sector. Some divs 
+		of the page are really big for the information they contain. Poor 
+		color choices (brown-orange). In the main page, there is a section 
+		of buttons placed in grid (4 by infinite), so many of them, that 
+		makes the page difficult and not pleasing to the eye. In the Blog 
+		division, on the main page, the three columns, that contain previews 
+		of the blogs articles, are not of the same length making the site 
+		look weird and cheap. 
+
+
+	b. https://www.honda-motorcycles.gr/
+
+		it is the website of the official Honda motorcycle dealer in Greece.
+		Everytime you load the site, a big disclamer appears in the middle 
+		of the screen, making your experience not so nice.
+		The main page does not really have a navbar. There are some buttons 
+		on the top left corner, which are not really interesting for the 
+		visitor and have nothing to do with motorcycles. On the top left 
+		corner there is a button with the text "start your engines". That 
+		leads you to the page where the motorcycles are, but its not so 
+		intuitive. Once you find yourself there and you choose a specific 
+		bike model, you have to scroll down for aaages. At the very bottom 
+		of the page you will at last find the specifications of the choosen 
+		bike. This Website has many faults, frustrates and tires the visitor.
+
+
+	c. https://www.mandis-home.gr/
+
+		this shop has everything to offer to the customer and all those 
+		items are placed in the main page. It is a mess. Messages are 
+		running across the page, images flash before your eyes. Too much 
+		information equals no information. Every single technique that is 
+		used is wrong. 

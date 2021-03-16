@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>TWE-Assessment-Leonidas Anagnostou</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+  </head>
+  
+  <body>
+
+   
+
+
+    <!--
+      we have 5 main divs
+    -->
+
+    <!--
+      1.image_div: main image with semitransparent layer, logo and navigation bar
+    -->
+    <div id="image_div">
+      <div id="transparent_div">
+       
+        <div id="logo_div">
+          <img id="logo" src="pallet-solid.svg" alt="company logo">
+        </div>
+
+        <!--
+          hamburger menu collapsable
+        -->
+        <nav role="navigation">
+          <div id="menuToggle">
+            <!--
+            A fake / hidden checkbox is used as click reciever,
+            so you can use the :checked selector on it.
+            -->
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul id="menu">
+              <a href="#home">Our Story</a><br>
+              <a href="#about">Shop</a><br>
+              <a href="#clients">Projects</a><br> 
+              <a href="#contact">Contact</a><br>
+              <a href="https://www.thewebempire.us/" target="_blank">Our Partners</a>
+            </ul>
+          </div>
+        </nav>
+
+
+
+        <!--
+          normal navbar switces between hamburger(mobile) and normal (desktop)
+        -->
+        <div class="btn-group btn-group-justified">
+          <a href="#home">Our Story</a>
+          <a href="#about">Shop</a>
+          <a href="#clients">Projects</a>  
+          <a href="#contact">Contact</a>
+          <a href="https://www.thewebempire.us/" target="_blank">Our Partners</a>
+        </div>
+
+        <div class="header_image" id="image_txt">        
+          <h1>This is a great header</h1>
+          <h3>And that's a great subheader</h3>
+        </div>
+
+      </div>
+    </div>
+
+    <!--
+      2.button_row: row of two buttons, hovering between image_div and grid_images_div
+    -->
+    <div class="row row-no-gutters" id="button_row">
+      <div class="col-sm-3"></div>
+      <div class="col-sm-3 hovering_button" id="buttonNoMargin">
+        <button class="button"><b>Shop Now</b></button>
+      </div>
+      <div class="col-sm-3 hovering_button" id="buttonNoMargin">
+        <button class="button"><b>Contact Us</b></button>
+      </div>
+      <div class="col-sm-3"></div>
+    </div>
+
+    <!--
+      3.grid_images_div: second major div, containing three columns of images 
+    -->
+    <div id="grid_images_div">
+      <div class="container">
+        <div class="row">
+            <!--
+              1st column, single picture
+            -->
+            <div class="col-xl-4 col-xs-auto">
+              <img src="furnitureForLife.jpg" width="100%" height="100%"></img>
+            </div>
+            <!--
+              2nd column, 2 pictures
+            -->
+          <div class="col-xl-4 col-xs-auto">
+            <img src="wooderFurniture.jpg"  width="100%" height="auto"></img>
+            <img src="woodenStorageTrunk.jpg"  width="100%" height="auto" style="margin-top: 5%;"></img>
+          </div>
+          <!--
+              3rd column, 2 text paragraphs and 1 picture
+          -->
+          <div class="col-xl-4 col-xs-auto">
+            <div style="background-color: #017FDB;  height: 25%;">
+                <h4 class="white">Walnut Wood</h4>
+                <p class="white">Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Maxime
+                  mollitia,
+                  molestiae quas vel sint
+                  commodi epudiandae. Maxime
+                  mollitia,
+                  molestiae quas vel sint.</p>
+              </div>
+              <div style="background-color: #004AA1;  height: 25%;">
+                <h4 class="white">Birch Wood</h4>
+                <p class="white">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Maxime
+                mollitia,
+                molestiae quas vel sint
+                commodi epudiandae. Maxime
+                mollitia,
+                molestiae quas vel.
+                </p>
+              </div>
+            <img src="wooderFurniture.jpg"  width="100%" height="auto" style="margin-top: 5%;"></img>
+          </div>
+        
+        </div>
+      </div>
+    </div>
+
+    <!--
+      4.grid_personnel_div: contains personnel cards, with images and a small description 
+    -->
+    <div id="grid_personnel_div" style="z-index: 1;">
+      <!--
+        couch .svg logo for background use
+      -->
+      <img class="couch" src="couch-solid.svg" style="z-index: -20;">
+      <!--
+        title
+      -->
+      <div class="row">
+        <h1 style="text-align: center; color: white; margin-top: 5%; font-size: 50px;"><b>Meet The Team</b></h1>
+      </div>
+      <div class="row">
+        <div class="col-xl-3 col-xs-auto">
+        </div>
+        <div class="col-xl-3 col-xs-auto">
+          <!--
+            picture, and small info paragraph, 1 of 4
+          -->
+          <div class="pictures">
+            <div class="row">
+              <div class="col-4">
+                <div>
+                  <img class="person" src="person.jpg">
+                  <div class="circle" id="c1">CEO</div>
+                </div> 
+              </div>
+              <div class="col-8">
+                <h4 style="color: white; font-size: 35px; margin-top: 10px; ">Jon Doe</h4>
+                <p style="color: white; font-size: 18px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi epudiandae.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-8"></div>
+              <div class="col-4">
+                <button type="button" class="btn btn-primary">View More</button>
+              </div>
+            </div>
+          </div>
+          <!--
+            picture, and small info paragraph, 2 of 4
+          -->
+          <div class="pictures" >
+            <div class="row">
+              <div class="col-4">
+                <div>
+                  <img class="person" src="person.jpg">
+                  <div class="circle" id="c2">CEO</div>
+                </div> 
+              </div>
+              <div class="col-8">
+                <h4 style="color: white; font-size: 35px; margin-top: 10px; ">Jon Doe</h4>
+                <p style="color: white; font-size: 18px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi epudiandae.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-8"></div>
+              <div class="col-4">
+                <button type="button" class="btn btn-primary">View More</button>
+              </div>
+            </div>           
+          </div>
+        </div>
+        <div class="col-xl-3 col-xs-auto">
+          <!--
+            picture, and small info paragraph, 3 of 4
+          -->
+          <div class="pictures">
+            <div class="row">
+              <div class="col-4">
+                <div>
+                  <img class="person" src="person.jpg">
+                  <div class="circle" id="c3">CEO</div>
+                </div> 
+              </div>
+              <div class="col-8">
+                <h4 style="color: white; font-size: 35px; margin-top: 10px; ">Jon Doe</h4>
+                <p style="color: white; font-size: 18px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi epudiandae.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-8"></div>
+              <div class="col-4">
+                <button type="button" class="btn btn-primary">View More</button>
+              </div>
+            </div>            
+          </div>
+          <!--
+            picture, and small info paragraph, 4 of 4
+          -->
+          <div class="pictures">
+            <div class="row">
+              <div class="col-4">
+                <div>
+                  <img class="person" src="person.jpg">
+                  <div class="circle" id="c4">CEO</div>
+                </div> 
+              </div>
+              <div class="col-8">
+                <h4 style="color: white; font-size: 35px; margin-top: 10px; ">Jon Doe</h4>
+                <p style="color: white; font-size: 18px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi epudiandae.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-8"></div>
+              <div class="col-4">
+                <button type="button" class="btn btn-primary">View More</button>
+              </div>
+            </div>            
+          </div>
+        </div>
+        <div class="col-xl-3 col-xs-auto">
+        </div>
+      </div>
+    </div>    
+
+    <!--
+      shop_div: has 2 columns, one for an image and the second for some text and a button 
+    -->
+    <div id="shop_div">
+    
+        <div class="row">
+
+          <div class="col-xl-6 col-xs-auto" id="shop_image">
+            <img src="furnitureForLife.jpg"; style="max-width: 100%;"> 
+          </div>
+            
+          <div class="col-xl-6 col-xs-auto">
+            <div class="row" style="height: 33%;"></div>
+            <div class="row" style="height: 33%;">
+              <div class="col"></div>
+              <div class="col-8">
+                <div id="shop_txt_div" style="width: 100%;">
+                  <b>A GOOD FURNITURE<br>LAST FOR LIFE</b>
+                </div>
+                
+                <div id="shop_button_div">
+                  <button class="button"><b>Shop Now</b></button>  
+                </div>
+              </div>
+              
+              <div class="col"></div>
+            </div>
+            <div class="row" style="height: 33%;"></div>
+
+          </div>
+
+          
+          
+       
+        </div> 
+    </div>
+
+  </body>
+</html>
